@@ -10,11 +10,11 @@ public class Main {
         double amount=scanner.nextInt();
         double kdvliTutar;
 
-        if(amount<1000){
+        if(amount<=1000){
             kdvliTutar=amount*1.18;
 
         } else{
-            kdvliTutar=amount*0.8;
+            kdvliTutar=amount*1.08;
         }
         System.out.println("KDV'siz fiyat :" +amount);
 
